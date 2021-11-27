@@ -10,11 +10,6 @@
 .idea
 .rebar
 .rebar3
-_*
-_build
 ebin
 erl_crash.dump
-gen
-log
-logs
-rebar3.crashdump
+build

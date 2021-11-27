@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Converted to use the Gleam build tool.
+
 ## v1.0.1 - 2020-06-08
 
 - Updated for Gleam v0.9.0.
