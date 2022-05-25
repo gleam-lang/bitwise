@@ -1,17 +1,24 @@
 # bitwise
 
-🍓 Bitwise operations on integers.
+[![Package Version](https://img.shields.io/hexpm/v/bitwise)](https://hex.pm/packages/gleam_bitwise)
+[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/gleam_bitwise/)
 
+🍓 Bitwise operations on integers.
 
 ## Quick start
 
 ```sh
-# Build the project
-rebar3 compile
-
-# Run the eunit tests
-rebar3 eunit
-
-# Run the Erlang REPL
-rebar3 shell
+gleam run   # Run the project
+gleam test  # Run the tests
+gleam shell # Run an Erlang shell
 ```
+
+## Installation
+
+If available on Hex this package can be added to your Gleam project:
+
+```sh
+gleam add bitwise
+```
+
+and its documentation can be found at <https://hexdocs.pm/gleam_bitwise/>.
