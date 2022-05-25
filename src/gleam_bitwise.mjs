@@ -1,7 +1,7 @@
 export function and(x, y) {
     // In Javascript bitwise operations convert numbers to a sequence of 32 bits
     // while Erlang uses arbitrary precision.
-    // To get around this problem and get consistent results use BitInt and then 
+    // To get around this problem and get consistent results use BigInt and then 
     // downcast the value back to a Number value. 
     return Number(BigInt(x) & BigInt(y));
 }

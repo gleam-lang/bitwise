@@ -10,8 +10,8 @@ pub fn and_test() {
   bitwise.and(9, 3)
   |> should.equal(1)
 
-  // To check compatibility with Javascript, try a 32 bit unsigned integer
-  // (signed intergers are in the range -2147483648 to +2147483647, while
+  // To check compatibility with JavaScript, try a 32 bit unsigned integer
+  // (signed integers are in the range -2147483648 to +2147483647, while
   //  32 bit unsigned integers are in the range 0 to +4294967295).
   bitwise.and(2147483648, 2147483648)
   |> should.equal(2147483648)
@@ -21,7 +21,7 @@ pub fn not_test() {
   bitwise.not(2)
   |> should.equal(-3)
 
-  // To check compatibility with Javascript, try a 32 bit unsigned integer.
+  // To check compatibility with JavaScript, try a 32 bit unsigned integer.
   bitwise.not(2147483648)
   |> should.equal(-2147483649)
 }
@@ -30,7 +30,7 @@ pub fn or_test() {
   bitwise.or(9, 3)
   |> should.equal(11)
 
-  // To check compatibility with Javascript, try a 32 bit unsigned integer.
+  // To check compatibility with JavaScript, try a 32 bit unsigned integer.
   bitwise.or(1, 2147483648)
   |> should.equal(2147483649)
 }
@@ -39,7 +39,7 @@ pub fn exclusive_or_test() {
   bitwise.exclusive_or(9, 3)
   |> should.equal(10)
 
-  // To check compatibility with Javascript, try a 32 bit unsigned integer.
+  // To check compatibility with JavaScript, try a 32 bit unsigned integer.
   bitwise.exclusive_or(0, 2147483648)
   |> should.equal(2147483648)
 }
