@@ -19,12 +19,9 @@ export function exclusive_or(x, y) {
 }
 
 export function shift_left(x, y) {
-
-    let result = BigInt(x) << BigInt(y)
-    return Number(result)
+    return Number(BigInt(x) << BigInt(y))
 }
 
 export function shift_right(x, y) {
-    let result = BigInt(x) >> BigInt(y)
-    return Number(result);
+    return Number(BigInt(x) >> BigInt(y))
 }
