@@ -1,6 +1,6 @@
 # bitwise
 
-[![Package Version](https://img.shields.io/hexpm/v/bitwise)](https://hex.pm/packages/gleam_bitwise)
+[![Package Version](https://img.shields.io/hexpm/v/gleam_bitwise)](https://hex.pm/packages/gleam_bitwise)
 [![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/gleam_bitwise/)
 
 🍓 Bitwise operations on integers.
