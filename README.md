@@ -5,20 +5,14 @@
 
 🍓 Bitwise operations on integers.
 
-## Quick start
+This library works with Gleam running on Erlang or JavaScript.
 
-```sh
-gleam run   # Run the project
-gleam test  # Run the tests
-gleam shell # Run an Erlang shell
-```
+## Usage
 
-## Installation
-
-If available on Hex this package can be added to your Gleam project:
+Add `gleam_bitwise` to your Gleam project.
 
 ```sh
 gleam add gleam_bitwise
 ```
 
-and its documentation can be found at <https://hexdocs.pm/gleam_bitwise/>.
+Documentation can be found at <https://hexdocs.pm/gleam_bitwise/>.
