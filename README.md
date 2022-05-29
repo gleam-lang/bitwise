@@ -18,7 +18,7 @@ gleam shell # Run an Erlang shell
 If available on Hex this package can be added to your Gleam project:
 
 ```sh
-gleam add bitwise
+gleam add gleam_bitwise
 ```
 
 and its documentation can be found at <https://hexdocs.pm/gleam_bitwise/>.
