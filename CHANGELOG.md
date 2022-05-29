@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## v1.2.0 - 2022-05-29
 
 - Make the library compatible with the JavaScript target
 
