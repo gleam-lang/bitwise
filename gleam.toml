@@ -1,5 +1,6 @@
 name = "gleam_bitwise"
 version = "1.2.0"
+gleam = ">= 0.30.0"
 licences = ["Apache-2.0"]
 description = "Bitwise operations on integers"
 
@@ -10,7 +11,7 @@ links = [
 ]
 
 [dependencies]
-gleam_stdlib = "~> 0.21"
+gleam_stdlib = "~> 0.29"
 
 [dev-dependencies]
-gleeunit = "~> 0.6"
+gleeunit = "~> 0.10"

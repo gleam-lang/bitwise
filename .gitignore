@@ -13,3 +13,5 @@
 ebin
 erl_crash.dump
 build
+
+.tool-versions
