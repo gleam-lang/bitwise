@@ -13,8 +13,8 @@ pub fn and_test() {
   // To check compatibility with JavaScript, try a 32 bit unsigned integer
   // (signed integers are in the range -2147483648 to +2147483647, while
   //  32 bit unsigned integers are in the range 0 to +4294967295).
-  bitwise.and(2147483648, 2147483648)
-  |> should.equal(2147483648)
+  bitwise.and(2_147_483_648, 2_147_483_648)
+  |> should.equal(2_147_483_648)
 }
 
 pub fn not_test() {
@@ -22,8 +22,8 @@ pub fn not_test() {
   |> should.equal(-3)
 
   // To check compatibility with JavaScript, try a 32 bit unsigned integer.
-  bitwise.not(2147483648)
-  |> should.equal(-2147483649)
+  bitwise.not(2_147_483_648)
+  |> should.equal(-2_147_483_649)
 }
 
 pub fn or_test() {
@@ -31,8 +31,8 @@ pub fn or_test() {
   |> should.equal(11)
 
   // To check compatibility with JavaScript, try a 32 bit unsigned integer.
-  bitwise.or(1, 2147483648)
-  |> should.equal(2147483649)
+  bitwise.or(1, 2_147_483_648)
+  |> should.equal(2_147_483_649)
 }
 
 pub fn exclusive_or_test() {
@@ -40,8 +40,8 @@ pub fn exclusive_or_test() {
   |> should.equal(10)
 
   // To check compatibility with JavaScript, try a 32 bit unsigned integer.
-  bitwise.exclusive_or(0, 2147483648)
-  |> should.equal(2147483648)
+  bitwise.exclusive_or(0, 2_147_483_648)
+  |> should.equal(2_147_483_648)
 }
 
 pub fn shift_left_test() {

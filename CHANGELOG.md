@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.3.0 - 2023-08-24
+
+- Updated for Gleam v0.30.0.
+- This package no longer depends on the standard library.
+
 ## v1.2.0 - 2022-05-29
 
 - Make the library compatible with the JavaScript target
