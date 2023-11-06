@@ -1,6 +1,7 @@
 //// A set of functions for bitwise operations on integers.
 
 /// Calculates the bitwise AND of its arguments.
+@deprecated("Please use the bitwise functions in gleam/int")
 pub fn and(x: Int, y: Int) -> Int {
   do_and(x, y)
 }
@@ -10,6 +11,7 @@ pub fn and(x: Int, y: Int) -> Int {
 fn do_and(a: Int, b: Int) -> Int
 
 /// Calculates the bitwise NOT of its argument.
+@deprecated("Please use the bitwise functions in gleam/int")
 pub fn not(x: Int) -> Int {
   do_not(x)
 }
@@ -19,6 +21,7 @@ pub fn not(x: Int) -> Int {
 fn do_not(a: Int) -> Int
 
 /// Calculates the bitwise OR of its arguments.
+@deprecated("Please use the bitwise functions in gleam/int")
 pub fn or(x: Int, y: Int) -> Int {
   do_or(x, y)
 }
@@ -28,6 +31,7 @@ pub fn or(x: Int, y: Int) -> Int {
 fn do_or(a: Int, b: Int) -> Int
 
 /// Calculates the bitwise XOR of its arguments.
+@deprecated("Please use the bitwise functions in gleam/int")
 pub fn exclusive_or(x: Int, y: Int) -> Int {
   do_exclusive_or(x, y)
 }
@@ -37,6 +41,7 @@ pub fn exclusive_or(x: Int, y: Int) -> Int {
 fn do_exclusive_or(a: Int, b: Int) -> Int
 
 /// Calculates the result of an arithmetic left bitshift.
+@deprecated("Please use the bitwise functions in gleam/int")
 pub fn shift_left(x: Int, y: Int) -> Int {
   do_shift_left(x, y)
 }
@@ -46,6 +51,7 @@ pub fn shift_left(x: Int, y: Int) -> Int {
 fn do_shift_left(a: Int, b: Int) -> Int
 
 /// Calculates the result of an arithmetic right bitshift.
+@deprecated("Please use the bitwise functions in gleam/int")
 pub fn shift_right(x: Int, y: Int) -> Int {
   do_shift_right(x, y)
 }

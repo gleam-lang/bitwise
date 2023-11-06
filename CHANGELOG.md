@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.3.1 - 2023-11-06
+
+- Deprecated in favour of the bitwise operations in the standard library.
+
 ## v1.3.0 - 2023-08-24
 
 - Updated for Gleam v0.30.0.
